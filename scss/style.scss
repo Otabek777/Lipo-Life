@@ -66,9 +66,10 @@ ul,ol {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1202px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 //------------------------- Header
@@ -197,6 +198,8 @@ ul,ol {
         font-size: 14px;
         line-height: 20px;
         color: #AA9159;
+        text-transform: uppercase;
+        padding-bottom: 24px;
     }
 }
 
@@ -213,7 +216,7 @@ ul,ol {
 
 // advantages
 .advantages {
-    padding: 80px 0;
+    padding: 100px 0 80px;
     background: #282931;
 }
 
@@ -337,7 +340,7 @@ section {
 
 // table 
 .table {
-    padding: 106px 0 75px;
+    padding: 124px 0 75px;
     background: url(../img/table-back.jpg) no-repeat center / cover;
     h2 {
         margin-bottom: 81px;
@@ -363,7 +366,7 @@ section {
     border-radius: 50%;
 }
 .table__text {
-    width: calc(100% - 496px);
+    width: calc(100% - 503px);
     margin-left: auto;
     h4 {
         font-weight: normal;
@@ -411,6 +414,11 @@ section {
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-left: auto;
+        transition: all.3s ease;
+    }
+    a:hover {
+        background: #1D1E24;
+        color: #BA9B41;
     }
 }
 
@@ -443,7 +451,7 @@ section {
         font-size: 16px;
         line-height: 20px;
         color: #8E836A;
-        margin-bottom: 8px;
+        margin-bottom: 12px;
         position: relative;
         padding-left: 36px;
     }
@@ -488,7 +496,7 @@ section {
 
 // feedback
 .feedback {
-    padding: 73px 0 97px;
+    padding: 93px 0 97px;
     background: #A98E50;
     h2 {
         color: #F9F3E7;
@@ -500,12 +508,19 @@ section {
         background-color: #F9F3E7;
     }
     .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         left: 0;
         bottom: -60px;
         li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 1px;
             button {
-                width: 10px;
-                height: 10px;
+                max-width: 10px;
+                max-height: 10px;
                 border-radius: 50%;
                 border: 1px solid rgba(255, 255, 255, 0.4);
             }
@@ -557,7 +572,7 @@ section {
     padding: 0 62px 0 103px;
 }
 .slider_text {
-    margin-right: 70px;
+    width: 500px;
     h5 {
         font-weight: normal;
         font-size: 13px;
@@ -593,6 +608,7 @@ section {
     min-width: 267px;
     border-radius: 30px;
     overflow: hidden;
+    margin-left: auto;
     img {
         width: 100%;
     }
@@ -601,7 +617,7 @@ section {
 // contact
 .contact {
     background: #282931;
-    padding-top: 63px;
+    padding-top: 80px;
     padding-bottom: 56px;
     h2 {
         margin-bottom: 50px;
@@ -609,6 +625,9 @@ section {
 }
 
 .container__box {
+    max-width: 1127px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     // background: radial-gradient(98.05% 261.61% at 1.95% 3.59%, rgba(35, 34, 34, 0.4) 0%, rgba(49, 49, 49, 0) 100%);
     backdrop-filter: blur(42px);
@@ -645,6 +664,7 @@ section {
         letter-spacing: 0.5px;
         color: #C4C4C4;
         margin-bottom: 10px;
+        padding-left: 36px;
     }
     input {
         width: 100%;
@@ -671,6 +691,7 @@ section {
         letter-spacing: 0.5px;
         color: #C4C4C4;
         margin-bottom: 10px;
+        padding-left: 36px;
     }
     textarea {
         min-width: 100%;
@@ -696,6 +717,7 @@ section {
             opacity: 0;
         }
         label {
+            width: 332px;
             font-weight: 300;
             font-size: 14px;
             line-height: 18px;
@@ -724,6 +746,7 @@ section {
         }
     }
     .btn {
+        max-width: 362px;
         width: 100%;
         height: 44px;
         background: linear-gradient(180deg, #33353D 0%, #252734 100%), #252734;
@@ -737,6 +760,7 @@ section {
         text-transform: uppercase;
         color: #F9F3E7;
         cursor: pointer;
+        margin: 0 auto;
         margin-top: 34px;
         transition: all.3s ease;
     }
