@@ -71,8 +71,9 @@
     .table__bottom_img {
         margin: 0 auto;
     }
-    .container__box {
+    .container__box .wrapper {
         flex-direction: column;
+        padding: 32px;
     }
     .container__box img.shine, .container__img {
         display: none;
@@ -84,8 +85,8 @@
         width: 100%;
         margin-left: 0;
     }
-    .container__box {
-        padding: 32px;
+    section h2 {
+        line-height: 36px;
     }
     .footer__bottom {
         flex-direction: column;
@@ -124,6 +125,7 @@
         width: 100%;
     }
     .slider_text {
+        width: 100%;
         margin-right: 0;
     }
 }
