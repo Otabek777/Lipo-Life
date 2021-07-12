@@ -31,6 +31,9 @@ h1,h2,h3,h4,h5,h6 {
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+body.hidden {
+    overflow: hidden;
+}
 
 body {
     color: #333333; }
