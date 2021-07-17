@@ -21,3 +21,17 @@ $(function(){
          
     }); 
  });
+
+$(window).scroll(function(){
+    if ( $(this).scrollTop() > 100) {
+        $('.btn_top').css({bottom : '72px'});
+    } else {
+        $('.btn_top').css({bottom : '-100%'});
+    }
+});
+
+$('.btn_top').on('click', function(){
+    $('html, body').animate({
+        scrollTop: 0
+    }, 500);
+});

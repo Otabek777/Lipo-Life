@@ -22,25 +22,6 @@
         margin-left: 0;
         margin-bottom: 32px;
         margin-bottom: 50px;
-        opacity: 0;
-        transform: translateX(-10px);
-        transition: all.7s ease;
-        transition-delay: 0.3s;
-    }
-    .header__navbar li:nth-child(2) {
-        transition-delay: 0.6s;
-    }
-    .header__navbar li:nth-child(3) {
-        transition-delay: 0.9s;
-    }
-    .header__navbar li:nth-child(4) {
-        transition-delay: 1.2s;
-    }
-    .header__navbar li:nth-child(5) {
-        transition-delay: 1.5s;
-    }
-    .header__navbar li:nth-child(6) {
-        transition-delay: 1.8s;
     }
     .header__navbar li a {
         font-weight: bold;
@@ -51,10 +32,6 @@
     .header__navbar.active {
         opacity: 1;
         left: 0;
-    }
-    .header__navbar.active li {
-        opacity: 1;
-        transform: translateX(0);
     }
     .header__insta {
         margin-left: auto;
@@ -178,7 +155,7 @@
         width: 100%;
         margin-right: 0;
     }
-    .burgir {
+    .burgir, .btn_top {
         display: block;
     }
 }
