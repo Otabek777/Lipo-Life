@@ -129,7 +129,7 @@ ul,ol {
     }
 }
 .btn_top {
-    display: none;
+    display: block;
     width: 44px;
     height: 44px;
     background: linear-gradient(180deg, #33353D 0%, #252734 100%), #252734;
@@ -140,6 +140,7 @@ ul,ol {
     z-index: 1000;
     border-radius: 50%;
     transition: all.5s ease;
+    cursor: pointer;
     span {
         display: block;
         width: 20px;
